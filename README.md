@@ -85,7 +85,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-[Click Me](https://moons-of-the-solar-system.onrender.com/)
+[Click Me](https://boku52500.github.io/Solar-System-Capstone/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
