@@ -122,6 +122,22 @@ img {
   cursor: pointer;
 }
 
+.navLink:nth-child(1) {
+  background-color: palevioletred;
+}
+
+.navLink:nth-child(4) {
+  background-color: palevioletred;
+}
+
+.navLink:nth-child(5) {
+  background-color: palevioletred;
+}
+
+.navLink:nth-child(8) {
+  background-color: palevioletred;
+}
+
 .moonContainer:nth-child(even) {
   background-color: black;
 }

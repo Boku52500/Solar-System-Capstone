@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { NavLink } from 'react-router-dom';
+import { BsFillArrowRightCircleFill } from 'react-icons/bs';
 import { useSelector, useDispatch } from 'react-redux';
 import { showPlanet } from '../redux/home/homeSlice';
 import logo from '../assets/solar-system.png';
@@ -72,8 +73,9 @@ const Home = () => {
                         to="/Details"
                         className="navLink"
                       >
-                        <button type="button" className="planet" key={planet.id} onClick={() => dispatch(showPlanet(planet.id))}>
 
+                        <button type="button" className="planet" key={planet.id} onClick={() => dispatch(showPlanet(planet.id))}>
+                          <BsFillArrowRightCircleFill size="50px" />
                           {planet.id === 'uranus' ? (
                             <div>
                               <img className="backImage" alt="planet" src={uranus} />
